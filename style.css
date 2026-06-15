@@ -1,0 +1,167 @@
+/* ── GERAL ── */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f0;
+  color: #1a1a2e;
+  margin: 0;
+  padding: 0;
+}
+
+/* ── BANNER / CABEÇALHO ── */
+header {
+  background-color: #4a0e2e;
+  color: white;
+  text-align: center;
+  padding: 40px 18%;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 8px;
+  color: #f0c0d0;
+}
+
+header p {
+  margin: 4px 0;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+}
+
+/* ── MENU DE NAVEGAÇÃO ── */
+nav {
+  background-color: #e8e5dc;
+  border-bottom: 3px solid #c0392b;
+  padding: 0 18%;
+  display: flex;
+  gap: 8px;
+}
+
+nav button {
+  padding: 14px 18px;
+  border: none;
+  background: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: #4a0e2e;
+  cursor: pointer;
+}
+
+nav button:hover {
+  color: #c0392b;
+}
+
+nav button.ativo {
+  color: #c0392b;
+  border-bottom: 3px solid #c0392b;
+}
+
+/* ── PÁGINAS ── */
+.pagina {
+  display: none;
+  padding: 50px 18%;
+}
+
+.pagina.ativa {
+  display: block;
+}
+
+/* ── TÍTULOS ── */
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 16px;
+  color: #4a0e2e;
+}
+
+/* ── PARÁGRAFOS E LISTAS ── */
+p {
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 14px;
+}
+
+ul, ol {
+  padding-left: 20px;
+  line-height: 2;
+  font-size: 15px;
+}
+
+/* ── CARDS ── */
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.card h3 {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* ── CITAÇÃO ── */
+blockquote {
+  background-color: #f5e6ea;
+  border-left: 5px solid #c0392b;
+  margin: 30px 0;
+  padding: 20px 24px;
+  border-radius: 0 10px 10px 0;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+blockquote cite {
+  font-style: normal;
+  font-size: 13px;
+  color: #777;
+}
+
+/* ── TABELA ── */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+th {
+  background-color: #4a0e2e;
+  color: white;
+  padding: 12px 16px;
+  text-align: left;
+}
+
+td {
+  padding: 10px 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f5e6ea;
+}
+
+/* ── RODAPÉ ── */
+footer {
+  background-color: #4a0e2e;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  padding: 24px 18%;
+  font-size: 13px;
+}
+
+footer strong {
+  color: #f0c0d0;
+}
